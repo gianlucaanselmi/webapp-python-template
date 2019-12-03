@@ -17,3 +17,8 @@ Qualsiasi cosa tu voglia creare, puoi usare questo template!
 Il tutorial che abbiamo usato anche in classe lo trovate [qui](https://wbigger.github.io/book-cs-3y/).
 
 Buon divertimento :)
+
+
+#### Storia Utente
+
+1. come venditore di frutta, voglio che il mio sito mostri il tipo di frutta, il costo della frutta, e quale è la marca del tipo di frutta. 

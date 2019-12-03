@@ -1,7 +1,7 @@
 from flask import Flask, Response
 import json
 
-from something import something
+from Frutta import Frutta
 
 
 app = Flask(__name__)
@@ -16,5 +16,5 @@ def js():
 
 @app.route("/data")
 def data():
-    json_string = json.dumps([x for x in something])
+    json_string = json.dumps([x for x in Frutta])
     return Response(json_string, mimetype='application/json')
