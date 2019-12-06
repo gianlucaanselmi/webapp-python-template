@@ -12,8 +12,8 @@
     $.getJSON("").done(makeList);
  
  
-       function makeList(jsonFrutta) {
-    for (book of jsonFrutta) {
+       function makeList(jsonfrutta) {
+    for (frutta of jsonFrutta) {
         let newItem = `<li>${Frutta}</li>`;
         $("ul").append(newItem);
     }
