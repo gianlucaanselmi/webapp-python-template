@@ -21,4 +21,4 @@ Buon divertimento :)
 
 #### Storia Utente
 
-1. come venditore di frutta, voglio che il mio sito mostri il tipo di frutta, il costo della frutta, e quale è la marca del tipo di frutta. 
+1. come venditore di frutta, voglio che il mio sito mostri il tipo di frutta, il costo della frutta.
