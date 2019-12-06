@@ -1,7 +1,7 @@
 from flask import Flask, Response
 import json
 
-from frutta import Frutta
+from Frutta import frutta
 
 
 app = Flask("Fruttivendolo")
