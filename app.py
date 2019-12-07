@@ -1,10 +1,10 @@
 from flask import Flask, Response
 import json
 
-from frutta import frutta
+from Frutta import frutta
 
 
-app = Flask("frutta")
+app = Flask("Frutta")
 
 @app.route('/')
 def root():
