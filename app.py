@@ -16,5 +16,5 @@ def js():
 
 @app.route("/data")
 def data():
-    json_string = json.dumps([frutta for frutta in Frutta])
+    json_string = json.dumps([frutta for Frutta in frutta])
     return Response(json_string, mimetype='application/json')

@@ -7,9 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-
+<ul></ul>
 </body>
 <script src="jquery-3.4.1.min.js">
-$.getJSON("").done(makeList);
+    $.getJSON("").done(makeList);
+ 
+ 
+function makeList(jsonfrutta) {
+    for (frutta of jsonFrutta) {
+        let newItem = `<li>${Frutta}</li>`;
+        $("ul").append(newItem);
+    }
+}
+
+
 </script>
 </html>
