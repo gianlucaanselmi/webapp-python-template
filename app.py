@@ -1,10 +1,10 @@
 from flask import Flask, Response
 import json
 
-from Frutta import frutta
+from frutta import frutta
 
 
-app = Flask("Fruttivendolo")
+app = Flask("frutta")
 
 @app.route('/')
 def root():
@@ -16,5 +16,5 @@ def js():
 
 @app.route("/data")
 def data():
-    json_string = json.dumps([x for x in Frutta])
+    json_string = json.dumps([frutta for frutta in Frutta])
     return Response(json_string, mimetype='application/json')

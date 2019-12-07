@@ -1,9 +1,4 @@
-mela = ("mela",1.00,"")
-pera = ("pera",1.50,"")
-ananas = ("ananas",1.70,"") 
-uva = ("uva",1.20,"")
-
-frutta = [mela,pera,ananas,uva] 
+frutta = ["melone 3 euro","ciliegia 3 euro","limone 2 euro","pesca 3 euro"]
 
 def get_frutta_list():
     return frutta
